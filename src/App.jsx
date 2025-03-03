@@ -18,7 +18,7 @@ function App() {
 
 
 
-<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 sm:-translate-y-1/2 text-center -translate-y-[90%] " >
+<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 sm:-translate-y-1/2 text-center -translate-y-[85%] " >
 <Front/>
 
 <div className="flex gap-3 justify-center flex-wrap">
