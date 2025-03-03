@@ -18,13 +18,14 @@ function App() {
 
 
 
-<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center ">
- <Front/>
-  <div className='flex gap-3 justify-center'>
+<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 sm:-translate-y-1/2 text-center -translate-y-[110%] " >
+<Front/>
 
-  <Button title='Services'/>
+<div className="flex gap-3 justify-center flex-wrap">
+  <Button title='Service'/>
   <Button title='More'/>
-  </div>
+
+</div>
 </div>
     </div>
     </>
