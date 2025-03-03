@@ -12,7 +12,7 @@ const Nav = () => {
         <motion.button
         className="md:hidden text-white text-3xl focus:outline-none"
         onClick={() => setMenuOpen(!menuOpen)}
-        animate={{ rotate: menuOpen ? 180 : 0 }} // Rotate animation
+        animate={{ rotate: menuOpen ? 180 : 0 }} 
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
         {menuOpen ? "✖" : "☰"}
@@ -25,14 +25,14 @@ const Nav = () => {
     <motion.li
       key={index}
       className="relative group text-white text-lg cursor-pointer transition-transform duration-300"
-      whileHover={{ scale: 1.1 }} // Slight pop effect
+      whileHover={{ scale: 1.1 }} 
       transition={{ duration: 0.2 }}
     >
       <a href={`#${item.toLowerCase()}`} className="hover:text-green-400 transition-colors duration-300">
         {item}
       </a>
 
-      {/* Underline Animation */}
+     
       <span className="absolute left-1/2 bottom-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
     </motion.li>
   ))}

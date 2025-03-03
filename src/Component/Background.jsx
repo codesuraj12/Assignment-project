@@ -1,5 +1,7 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useEffect } from "react";
+import Video from '../assets/vid.mp4'
+
 
 const Background = () => {
   const x = useMotionValue(0);
@@ -29,7 +31,7 @@ const Background = () => {
         muted
         loop
         playsInline
-        src="/src/assets/vid.mp4"
+        src={Video}
         style={{
           rotateX,
           rotateY,
