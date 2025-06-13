@@ -65,7 +65,7 @@ const Portfolio = () => {
           <div className="flex justify-between items-center h-16 sm:h-20">
             <div className="flex-shrink-0">
               <div className="text-2xl sm:text-3xl font-bold">
-                <img src='public/Logo.png' alt="" />
+                <img src='/Logo.png' alt="" />
 
               </div>
             </div>
@@ -139,13 +139,13 @@ const Portfolio = () => {
 
               <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12 lg:gap-16 mb-8 sm:mb-12">
                 <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-lg sm:text-xl font-semibold"><img src="public/doradesign.png" alt="logo1" /></span>
+                  <span className="text-lg sm:text-xl font-semibold"><img src="/doradesign.png" alt="logo1" /></span>
                 </div>
                 <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-lg sm:text-xl font-semibold"><img src="public/Frame.png" alt="logo2" /></span>
+                  <span className="text-lg sm:text-xl font-semibold"><img src="/Frame.png" alt="logo2" /></span>
                 </div>
                 <div className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-lg sm:text-xl font-bold"><img src="public/wavefun.png" alt="logo3" /></span>
+                  <span className="text-lg sm:text-xl font-bold"><img src="/wavefun.png" alt="logo3" /></span>
                 </div>
               </div>
 
