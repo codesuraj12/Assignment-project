@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Footer from './Footer';
 import Faq from './Faq';
-import ProjectCard from './Projectcard';
+import ProjectCard from './ProjectCard';
 import BlogCard from './BlogCard';
 
 
@@ -115,7 +115,7 @@ const Portfolio = () => {
                   <span>I AM A</span>
                   <span className="relative">
                     <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
-                      <img src='public/Rectangle.png' className="w-8 h-4  md:w-16 md:h-8 object-contain" alt="rect" />
+                      <img src='/Rectangle.png' className="w-8 h-4  md:w-16 md:h-8 object-contain" alt="rect" />
                     </span>
                   </span>
                   <span className="bg-white text-black px-2 sm:px-4 py-1 sm:py-2 inline-block">
@@ -126,7 +126,7 @@ const Portfolio = () => {
                   <span className="bg-white text-black px-2 sm:px-4 py-1 sm:py-2 inline-block">
                     DESIGNER
                   </span>
-                  <div className=" sm:w-15 lg:w-12  rounded-sm flex-shrink-0"><img className="w-8 h-4  md:w-16 md:h-8 object-contain" src='public/Rectangle.png' alt="rect2" /></div>
+                  <div className=" sm:w-15 lg:w-12  rounded-sm flex-shrink-0"><img className="w-8 h-4  md:w-16 md:h-8 object-contain" src='/Rectangle.png' alt="rect2" /></div>
                   <span>FROM</span>
                 </div>
                 <div className="mt-2 sm:mt-4">
@@ -210,13 +210,13 @@ const Portfolio = () => {
 
           <div className="grid  gap-6">
             <ProjectCard
-              img={'public/Frame1.png'}
+              img={'/Frame1.png'}
             />
             <ProjectCard
-              img={'public/Frame2.png'}
+              img={'/Frame2.png'}
             />
             <ProjectCard
-              img={'public/Frame3.png'}
+              img={'/Frame3.png'}
             />
           </div>
         </div>
@@ -273,19 +273,19 @@ const Portfolio = () => {
               title="How UX works in web"
               date="Nov 9, 2023"
               tags={["UX", "UX"]}
-              image={'public/envelop.png'}
+              image={'/envelop.png'}
             />
             <BlogCard
               title="Case study - Analysis Application."
               date="Aug 18, 2023"
               tags={["DESIGN", "PRINT"]}
-              image={'public/envelop2.png'}
+              image={'/envelop2.png'}
             />
             <BlogCard
               title="3 ways to develop your skill"
               date="Feb 16, 2023"
               tags={["FIGMA", "WEB"]}
-              image={'public/envelop3.png'}
+              image={'/envelop3.png'}
             />
           </div>
         </div>
